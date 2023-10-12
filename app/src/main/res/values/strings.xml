@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">neyum nanum</string>
+    <string name="name2">P R I N C E S S</string>
+    <string name="name1">P R I N C E</string>
+    <string name="show">SHOW</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="FLAMES">FLAMES</string>
+    <string name="title">𝘍𝘓𝘈𝘔𝘌𝘚</string>
+</resources>

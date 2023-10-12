@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/main2bg"
+    android:gravity="center_horizontal"
+    >
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+
+           >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="87dp"
+                   android:layout_marginLeft="10dp"
+                   android:paddingTop="30dp"
+                   android:textSize="50sp"
+                   android:text="@string/title"
+                   android:id="@+id/title"
+                   android:textColor="#001219"
+
+                   />
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="87dp"
+                   android:layout_marginLeft="80dp"
+                   android:paddingTop="33dp"
+                   android:id="@+id/resetbtn"
+                   android:src="@drawable/reset" />
+       </LinearLayout>
+
+        <ImageView
+            android:layout_width="335dp"
+            android:layout_height="83dp"
+            android:src="@drawable/prince"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:id="@+id/Name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="300dp"
+            android:layout_marginTop="-25dp"
+            android:background="@drawable/editboder"
+            android:hint="@string/name1"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:height="50dp"
+            />
+        <ImageView
+            android:layout_width="335dp"
+            android:layout_height="83dp"
+            android:src="@drawable/princess"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/Name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-25dp"
+            android:width="300dp"
+            android:background="@drawable/editboder"
+            android:hint="@string/name2"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:height="50dp"
+            />
+
+        <Button
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="250dp"
+            android:height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btnbg"
+            android:text="@string/show"
+            android:letterSpacing="0.5"
+            android:fontFamily="sans-serif"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="60sp"
+            android:fontFamily="cursive"
+            android:textColor="#DC20B3"
+            android:id="@+id/textview"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="-200dp"
+            android:src="@drawable/lovebottom"
+            />
+</LinearLayout>
